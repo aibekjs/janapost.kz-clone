@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="top-header">
     <div>
       <div>
         <span>+7 727 349 97 40</span>
@@ -7,15 +7,13 @@
       <div>
         <div>
           <font-awesome-icon :icon="['fas', 'globe']" />
-          <span>Қазақша</span>
+          <span>English</span>
         </div>
         <div>
           <font-awesome-icon :icon="['fas', 'user']" />
-          <span>Тапсырысым</span>
+          <span>My order</span>
         </div>
       </div>
     </div>
   </div>
 </template>
-
-<style scoped></style>

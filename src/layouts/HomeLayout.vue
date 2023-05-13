@@ -1,11 +1,11 @@
 <template>
   <div>
-    <the-header />
+    <top-header />
   </div>
 </template>
 
 <script setup lang="ts">
-import TheHeader from "../components/TheHeader.vue";
+import TopHeader from "../components/TopHeader.vue";
 </script>
 
 <style scoped></style>
