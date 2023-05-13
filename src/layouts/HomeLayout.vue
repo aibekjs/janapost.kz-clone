@@ -1,5 +1,6 @@
 <template>
-  <div>index</div>
+  home
+  <router-view />
 </template>
 
 <script setup></script>
