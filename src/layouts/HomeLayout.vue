@@ -1,8 +1,11 @@
 <template>
-  home
-  <router-view />
+  <div>
+    <the-header />
+  </div>
 </template>
 
-<script setup></script>
+<script setup lang="ts">
+import TheHeader from "../components/TheHeader.vue";
+</script>
 
-<style lang="scss" scoped></style>
+<style scoped></style>
