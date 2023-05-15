@@ -7,9 +7,13 @@ import "bootstrap";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-import { faGlobe, faUser } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGlobe,
+  faUser,
+  faCalculator,
+} from "@fortawesome/free-solid-svg-icons";
 
-library.add(faGlobe, faUser);
+library.add(faGlobe, faUser, faCalculator);
 
 createApp(App)
   .use(router)

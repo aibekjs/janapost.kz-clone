@@ -2,12 +2,6 @@
   <router-view />
 </template>
 
-<style>
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
-html,
-body {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-}
-</style>
+<script setup lang="ts">
+import "./assets/css/styles.css";
+</script>

@@ -1,6 +1,28 @@
-.bg-default {
-  background-color: #1b8918;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --color-primary: #1b8918;
+}
+html,
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.primary-bg-color {
+  background-color: var(--color-primary);
+}
+.primary-color {
+  color: var(--color-primary);
 }
 .pointer {
   cursor: pointer;
+}
+.logo-size {
+  height: 30px;
+}
+.calc-size {
+  font-size: 24px;
+}
+.active {
+  color: var(--color-primary);
 }
