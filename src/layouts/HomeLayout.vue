@@ -2,6 +2,7 @@
   <div>
     <top-header />
     <primary-menu />
+    <router-view />
   </div>
 </template>
 

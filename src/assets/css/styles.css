@@ -14,6 +14,11 @@ body {
 .primary-color {
   color: var(--color-primary);
 }
+.primary-button {
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+  color: var(--color-primary);
+}
 .pointer {
   cursor: pointer;
 }
