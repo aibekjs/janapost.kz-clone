@@ -31,3 +31,7 @@ body {
 .active {
   color: var(--color-primary);
 }
+.hero-title {
+  color: var(--color-primary);
+  font-size: 24px;
+}
